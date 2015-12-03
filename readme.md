@@ -1,3 +1,26 @@
+## NBA 2015-2016 Season Schedule
+
+This API comes with files necessary to use right away. 
+
+There is a .csv which can be easily imported to a database with a specific format which can be found here
+[here](https://github.com/ProgrammingPeter/NBA-Schedule-Scraper)
+
+After reading the required format the .csv can be found at app\database\seeds\NBA_Schedule\nbaSchedules.csv.
+Along with the .csv, a few seeders are setup to create the tables you need as well as the data to populate the other tables.
+
+NOTE - There is a seeder that populates the schedule. You can either do it manually, or run the seeder.
+
+## The main endpoints to hit for this API are
+
+/teams
+/teams/id
+/teams/id/schedule
+/schedules
+
+and they are all GET endpoints
+
+## Also...
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
